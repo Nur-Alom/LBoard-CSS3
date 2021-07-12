@@ -104,7 +104,8 @@ hr{
 .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 24px;
+    grid-column-gap: 20px;
+    
 }
 
 .course .course-banner img{
@@ -133,8 +134,8 @@ hr{
 }
 .course{
     padding: 8px;
-    border-radius: 10px;
-    box-shadow: 10px 5px 15px gray;
+    border-radius: 15px;
+    box-shadow: 5px 5px 40px #c5c2c2;
 }
 
 /*----------------
