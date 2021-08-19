@@ -34,9 +34,9 @@
     <!-- header end -->
     <main>
         <!-- Top Players and Top Blogs -->
-        <section class="container">
-            <div class="top-players">
-                <h2 class="section-title">Top Players</h2>
+        <section id="section" class="container">
+            <div id="players" class="top-players">
+                <h2 id="section-title" class="section-title">Top Players</h2>
                 <div class="players">
                     <div class="player">
                         <img src="images/players/player-1.png" alt="">
@@ -65,8 +65,8 @@
                 </div>
             </div>
             <hr>
-            <div class="top-blogs">
-                <h2 class="section-title">Top Blogs</h2>
+            <div id="blogs" class="top-blogs">
+                <h2 id="section-title2" class="section-title">Top Blogs</h2>
                 <div class="blogs">
                     <article class="blog">
                         <div class="thumbail">
@@ -192,7 +192,18 @@
                 </div>
             </div>
         </section>
+        <section class="container">
+            <ul id="li-list">
+                <li>list-item</li>
+                <li>list-item</li>
+                <li>list-item</li>
+            </ul>
+            <button id="add-item" class="btn">Add Item</button>
+            <input id="count-num" type="number" value="0" min="0">
+            <button id="add-num" class="btn">Add Number</button>
+        </section>
     </main>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
